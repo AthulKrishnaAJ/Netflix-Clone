@@ -27,9 +27,9 @@ function Home () {
             </div>
             <div className="more-cards">
                 < TitleCards title={"Blockbuster Movies"}/>
-                < TitleCards title={"Only on Netflix"}/>
-                < TitleCards title={"Upcoming"}/>
-                < TitleCards title={"Top Pics for You"}/>
+                < TitleCards title={"Only on Netflix"} category={'top_rated'}/>
+                < TitleCards title={"Upcoming"} category={'popular'}/>
+                < TitleCards title={"Top Pics for You"} category={'upcoming'}/>
             </div>
 
             < Footer />
